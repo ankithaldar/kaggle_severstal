@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "project - debugger", // Anything you want
+      "type": "debugpy",
+      "request": "launch",
+      "cwd": "${workspaceFolder}", // full path to project folder
+      "python": "/home/helder/.cache/pypoetry/virtualenvs/kaggle-base-template-CghReVaR-py3.11/bin/python", // full path to python.exe (run  poetry env info --path) in terminal to get virtual env folder
+      "program": "${workspaceFolder}/src/main.py", // full path to file to execute
+      "console": "integratedTerminal",
+      "redirectOutput": true,
+      "justMyCode": true,
+      "stopOnEntry": false,
+    }
+  ]
+}
