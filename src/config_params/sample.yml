@@ -1,5 +1,6 @@
 seed: 42
 project_name: 'project'
+create_tf_records: True
 fold: 0
 aug_name: 'default'
 apply_mixup: True
@@ -70,7 +71,7 @@ train_bs: 32
 train_num_workers: 8
 valid_bs: 32
 valid_num_workers: 4
-add_pbar: True
+add_progressbar: True
 run_params:
   'max_epochs': 50,
   'epoch_length': None
