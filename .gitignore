@@ -134,5 +134,6 @@ poetry.lock
 # ------------------------------------------------------------------------------
 
 src/api_tokens/neptune_key
+data/*
 
 # -- End of generated file, don't change anything below this line!
