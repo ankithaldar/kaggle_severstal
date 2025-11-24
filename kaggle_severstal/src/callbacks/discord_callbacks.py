@@ -151,7 +151,7 @@ class DiscordCallback(pl.Callback):
     message = (
       f'**Training Update** - Epoch {current_epoch}, Batch {batch_idx}\n'
       f'Step: {global_step} | '
-      f'Loss: {metrics.get('train_loss', 'N/A'):.4f}'
+      f'Loss: {metrics.get("train_loss", "N/A"):.4f}'
     )
 
     # Add additional metrics if available
