@@ -1,0 +1,17 @@
+{
+  "version": "0.1.0",
+  "configurations": [
+    {
+      "name": "project - debugger", // Anything you want
+      "type": "debugpy",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/kaggle_severstal", // full path to project folder
+      "python": "${workspaceFolder}/.venv/bin/python", // full path to python.exe (run  poetry env info --path) in terminal to get virtual env folder
+      "program": "${workspaceFolder}/kaggle_severstal/src/train.py", // full path to file to execute
+      "console": "integratedTerminal",
+      "redirectOutput": true,
+      "justMyCode": true,
+      "stopOnEntry": false,
+    }
+  ]
+}
