@@ -12,8 +12,8 @@ from callbacks.callbacks import get_classification_checkpoint
 from callbacks.discord_callbacks import DiscordCallback
 from datamodules import ClassificationDataModule
 from engines.classifier import LitClassifier
+from lightning import Trainer, seed_everything
 from lightning.pytorch.loggers import WandbLogger
-from pytorch_lightning import Trainer, seed_everything
 
 # imports
 
